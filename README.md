@@ -13,6 +13,7 @@ Muhammad Rifqi Oktaviansyah | 5027221067 |
 ![jarkom](https://github.com/rehanasalsabilla/Jarkom-Modul-4-it12-2024-/assets/143682058/abd61386-7cb6-426f-bb46-094fe719df7d)
 
 ## Topologi GNS VLSM
+<img width="640" alt="TOPOLOGI" src="https://github.com/rehanasalsabilla/Jarkom-Modul-4-it12-2024-/assets/136863633/88583d97-c8d2-4206-867f-f03fb79f6d71">
 
 ## Rute
 Berikut merupakan rute dari hasil routing yang kami dapatkan
