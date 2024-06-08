@@ -91,6 +91,526 @@ Berikut merupakan beberapa penggabungan IP yang kami lakukan pada teknik pengelo
 ![Screenshot 2024-06-08 022518](https://github.com/rehanasalsabilla/Jarkom-Modul-4-it12-2024-/assets/136863633/1eaab702-e958-4dc6-9c19-f153a9cf97e4)
 
 ### Konfigurasi Network
+- JAWA
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet dhcp
+
+#A1
+auto eth1
+iface eth1 inet static
+address 192.239.21.201
+netmask 255.255.255.252
+
+#A7
+auto eth2
+iface eth2 inet static
+address 192.239.21.197
+netmask 255.255.255.252
+
+#A15
+auto eth3
+iface eth3 inet static
+address 192.239.21.205
+netmask 255.255.255.252
+```
+
+- SUMATERA
+```
+auto lo
+    iface lo inet loopback
+
+    #A15 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.206
+	netmask 255.255.255.252
+    gateway 192.239.21.204
+
+    #A16
+    auto eth1
+    iface eth1 inet static
+	address 192.239.21.65
+	netmask 255.255.255.224
+    
+    #A20 
+    auto eth2
+    iface eth2 inet static
+	address 192.239.21.193
+	netmask 255.255.255.252
+```
+
+- LAMPUNG
+```
+auto lo
+    iface lo inet loopback
+
+    #A20
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.194
+	netmask 255.255.255.252
+    gateway 192.239.21.193
+
+    #A21
+    auto eth1
+    iface eth1 inet static
+	address 192.239.19.1
+	netmask 255.255.255.0
+```
+
+- PC-SEBUKU (188 Host)
+```
+    #A21 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.19.2
+	netmask 255.255.255.0
+    gateway 192.239.19.1
+```
+
+- SERVER-SEBESI
+```
+    #A21 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.19.3
+	netmask 255.255.255.0
+    gateway 192.239.19.1
+```
+
+- SUMATERA-UTARA
+```
+auto lo
+    iface lo inet loopback
+
+    #A20
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.68
+	netmask 255.255.255.224
+    gateway 192.239.21.65
+
+    #A17
+    auto eth1
+    iface eth1 inet static
+	address 192.239.21.185
+	netmask 255.255.255.252
+```
+
+- PC-SAMOSIR (14 Host)
+```
+    #A16 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.67
+	netmask 255.255.255.224
+    gateway 192.239.21.65
+```
+
+- PC-SIBANDANG (11 Host)
+```
+    #A16 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.66
+	netmask 255.255.255.224
+    gateway 192.239.21.65
+```
+
+- ACEH
+```
+auto lo
+    iface lo inet loopback
+
+    #A17 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.186
+	netmask 255.255.255.252
+    gateway 192.239.21.185
+
+    #A18 
+    auto eth1
+    iface eth1 inet static
+	address 192.239.20.1
+	netmask 255.255.255.128
+    
+    #A19 
+    auto eth2
+    iface eth2 inet static
+	address 192.239.21.129
+	netmask 255.255.255.224
+```
+
+- PC-STARLAND (44 Host)
+```
+    #A17 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.20.4
+	netmask 255.255.255.128
+    gateway 192.239.20.1
+```
+
+- PC-ENANG-ENANG (27 Host)
+```
+    #A17 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.20.3
+	netmask 255.255.255.128
+    gateway 192.239.20.1
+```
+
+- PC-BERAWANG-TAMPU (63 Host)
+```
+    #A17 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.20.2
+	netmask 255.255.255.128
+    gateway 192.239.20.1
+```
+
+- KALIMANTAN
+```
+auto lo
+    iface lo inet loopback
+
+    #A7 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.198
+	netmask 255.255.255.252
+    gateway 192.239.21.197
+
+    #A8 
+    auto eth1
+    iface eth1 inet static
+	address 192.239.21.189
+	netmask 255.255.255.252
+```
+
+- KALIMANTAN-UTARA
+```
+auto lo
+    iface lo inet loopback
+
+    #A8 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.190
+	netmask 255.255.255.252
+    gateway 192.239.21.189
+
+    #A9 
+    auto eth1
+    iface eth1 inet static
+	address 192.239.18.1
+	netmask 255.255.255.0
+    
+    #A10
+    auto eth2
+    iface eth2 inet static
+	address 192.239.21.181
+	netmask 255.255.255.252
+```
+
+- PC-SELIMAU (200 Host)
+```
+    #A9 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.18.2
+	netmask 255.255.255.0
+    gateway 192.239.18.1
+```
+
+- KALIMANTAN-TIMUR
+```
+auto lo
+    iface lo inet loopback
+
+    #A10 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.182
+	netmask 255.255.255.252
+    gateway 192.239.21.181
+
+    #A12
+    auto eth1
+    iface eth1 inet static
+	address 192.239.21.177
+	netmask 255.255.255.252
+    
+    #A11
+    auto eth2
+    iface eth2 inet static
+	address 192.239.16.1
+	netmask 255.255.254.0
+```
+
+- SERVER-BINGKIRAI
+```
+    #A11
+    auto eth0
+    iface eth0 inet static
+	address 192.239.16.2
+	netmask 255.255.254.0
+    gateway 192.239.16.1
+```
+
+- PC-LAMARU (488 Host)
+```
+    #A11
+    auto eth0
+    iface eth0 inet static
+	address 192.239.16.3
+	netmask 255.255.254.0
+    gateway 192.239.16.1
+```
+
+- KALIMANTAN-SELATAN
+```
+auto lo
+    iface lo inet loopback
+
+    #A12 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.178
+	netmask 255.255.255.252
+        gateway 192.239.21.177
+
+    #A14
+    auto eth1
+    iface eth1 inet static
+	address 192.239.0.1
+	netmask 255.255.255.0
+    
+    #A13 
+    auto eth2
+    iface eth2 inet static
+	address 192.239.21.97
+	netmask 255.255.255.224
+```
+
+- PC-ANGSANA (16 Host)
+```
+    #A13
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.98
+	netmask 255.255.255.224
+    gateway 192.239.21.97
+```
+
+- PC-BATAKAN (1020 Host)
+```
+    #A14 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.0.2
+	netmask 255.255.248.0
+    gateway 192.239.0.1
+```
+
+- PC-TAKSIUNG (613 Host)
+```
+    #A14 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.0.3
+	netmask 255.255.248.0
+    gateway 192.239.0.1
+```
+
+- PC-BAJUIN (611 Host)
+```
+    #A14
+    auto eth0
+    iface eth0 inet static
+	address 192.239.0.4
+	netmask 255.255.248.0
+    gateway 192.239.0.1
+```
+
+- SULAWESI
+```
+auto lo
+    iface lo inet loopback
+
+    #A1 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.202
+	netmask 255.255.255.252
+    gateway 192.239.21.200
+
+    #A2 
+    auto eth1
+    iface eth1 inet static
+	address 192.239.20.129
+	netmask 255.255.255.128
+    
+    #A4 
+    auto eth2
+    iface eth2 inet static
+	address 192.239.21.161
+	netmask 255.255.255.248
+```
+
+- PC-GORONTALO (32 Host)
+```
+    #A2 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.20.130
+	netmask 255.255.255.128
+    gateway 192.239.20.129
+```
+
+- PC-MARISA (30 Host )
+```
+    #A2
+    auto eth0
+    iface eth0 inet static
+	address 192.239.20.131
+	netmask 255.255.255.128
+    gateway 192.239.20.129
+```
+
+- BELAWA
+```
+auto lo
+    iface lo inet loopback
+
+    #A4 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.163
+	netmask 255.255.255.248
+    gateway 192.239.21.161
+
+    #A5 
+    auto eth1
+    iface eth1 inet static
+	address 192.239.21.1
+	netmask 255.255.255.192
+```
+
+- PC-MADINI (30 Host)
+```
+    #A5
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.2
+	netmask 255.255.255.192
+    gateway 192.239.21.1
+```
+  
+- PC-BARU (30 Host)
+```
+    #A5
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.3
+	netmask 255.255.255.192
+    gateway 192.239.21.1
+```
+
+- MAKASAR
+```
+auto lo
+    iface lo inet loopback
+
+    #A4 SW-Sulsel - Makasar
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.162
+	netmask 255.255.255.248
+    gateway 192.239.21.161
+
+    #A6 Makasar-SW-Limbung
+    auto eth1
+    iface eth1 inet static
+	address 192.239.21.169
+	netmask 255.255.255.248
+```
+
+- SERVER-GALESONG
+```
+    #A6 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.170
+	netmask 255.255.255.248
+    gateway 192.239.21.169
+```
+
+- SERVER-TOPEJAWA-TAKALAR
+```
+    #A6
+    auto eth0
+    iface eth0 inet static
+	address 192.239.21.171
+	netmask 255.255.255.248
+    gateway 192.239.21.169
+```
+
+- MALUKU-UTARA
+```
+auto lo
+    iface lo inet loopback
+
+    #A2 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.20.132
+	netmask 255.255.255.128
+    gateway 192.239.20.129
+
+    #A3 
+    auto eth1
+    iface eth1 inet static
+	address 192.239.8.1
+	netmask 255.255.248.0
+```
+
+- PC-TOBELO (511 Host)
+```
+    #A3 
+    auto eth0
+    iface eth0 inet static
+	address 192.239.8.2
+	netmask 255.255.248.0
+    gateway 192.239.8.1 
+```
+
+- SERVER-MOROTAI
+```
+    #A3
+    auto eth0
+    iface eth0 inet static
+	address 192.239.8.3
+	netmask 255.255.248.0
+    gateway 192.239.8.1
+```
+
+- PC-TERNATE (511 Host)
+```
+    #A3
+    auto eth0
+    iface eth0 inet static
+	address 192.239.8.4
+	netmask 255.255.248.0
+    gateway 192.239.8.1
+```
 
 ### Routing
 
