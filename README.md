@@ -85,6 +85,7 @@ Berikut merupakan beberapa penggabungan IP yang kami lakukan pada teknik pengelo
 
 ## VLSM
 ### Tree
+![VLSM](https://github.com/rehanasalsabilla/Jarkom-Modul-4-it12-2024-/assets/136863633/9659853c-c04c-4d9a-af84-d13a0d73f28e)
 
 ### Pembagian IP
 ![Screenshot 2024-06-08 022518](https://github.com/rehanasalsabilla/Jarkom-Modul-4-it12-2024-/assets/136863633/1eaab702-e958-4dc6-9c19-f153a9cf97e4)
