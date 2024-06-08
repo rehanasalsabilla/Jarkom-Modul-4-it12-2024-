@@ -23,7 +23,7 @@ Muhammad Rifqi Oktaviansyah | 5027221067 |
   - [Pembagian IP](#pembagian-ip)
   - [Konfigurasi Network](#konfigurasi-network)
   - [Routing](#routing)
-  - [Testing](#testing)
+  - [Testing](#testing) 
 
 ## Topologi 
 ### Topologi PKT CIDR
@@ -85,9 +85,14 @@ Berikut merupakan beberapa penggabungan IP yang kami lakukan pada teknik pengelo
 
 ## VLSM
 ### Tree
+
 ### Pembagian IP
+![Screenshot 2024-06-08 022518](https://github.com/rehanasalsabilla/Jarkom-Modul-4-it12-2024-/assets/136863633/1eaab702-e958-4dc6-9c19-f153a9cf97e4)
+
 ### Konfigurasi Network
+
 ### Routing
+
 ### Testing
 
 
