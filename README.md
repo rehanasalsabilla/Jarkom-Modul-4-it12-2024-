@@ -8,31 +8,38 @@ Rehnana Putri Salsabilla | 5027221015 |
 Muhammad Rifqi Oktaviansyah | 5027221067 | 
 
 ## Daftar Isi
+- [Topologi](#topologi)
+  - [Topologi PKT CIDR](#topologi-pkt-cidr)
+  - [Topologi GNS3 VLSM](#topologi-gns3-vlsm)
+- [Prefix IP](#prefix-ip)
+- [Rute](#rute)
+- [CIDR](#cidr)
+  - [Penggabungan IP](#penggabungan-ip)
+  - [Tree](#tree)
+  - [Pembagian IP](#pembagian-ip)
+  - [Testing](#testing)
+- [VLSM](#vlsm)
+  - [Tree](#tree)
+  - [Pembagian IP](#pembagian-ip)
+  - [Konfigurasi Network](#konfigurasi-network)
+  - [Routing](#routing)
+  - [Testing](#testing)
 
-## Topologi PKT CIDR
+## Topologi 
+### Topologi PKT CIDR
 ![jarkom](https://github.com/rehanasalsabilla/Jarkom-Modul-4-it12-2024-/assets/143682058/abd61386-7cb6-426f-bb46-094fe719df7d)
 
-## Topologi GNS VLSM
+### Topologi GNS VLSM
 <img width="640" alt="TOPOLOGI" src="https://github.com/rehanasalsabilla/Jarkom-Modul-4-it12-2024-/assets/136863633/88583d97-c8d2-4206-867f-f03fb79f6d71">
+
+## Prefix IP
+Prefix IP Kelompok IT 12 ```192.239```
 
 ## Rute
 Berikut merupakan rute dari hasil routing yang kami dapatkan
 ![image](https://github.com/rehanasalsabilla/Jarkom-Modul-4-it12-2024-/assets/143682058/6bc8dfe1-40a0-4ea3-ac7f-19f43006675f)
 
-## VLSM
-
-### Tree
-
-### Pembagian IP
-
-### Konfigurasi Network
-
-### Routing
-
-### Testing
-
 ## CIDR
-
 ### Penggabungan IP
 Berikut merupakan beberapa penggabungan IP yang kami lakukan pada teknik pengelompokan CIDR yang dilakukan pada Cisco Packet Tracer (CPT)
 
@@ -74,6 +81,13 @@ Berikut merupakan beberapa penggabungan IP yang kami lakukan pada teknik pengelo
 ### Pembagian IP
 ![image](https://github.com/rehanasalsabilla/Jarkom-Modul-4-it12-2024-/assets/143682058/8558988d-37b0-4311-9aab-f61c202c0260)
 
+### Testing
+
+## VLSM
+### Tree
+### Pembagian IP
+### Konfigurasi Network
+### Routing
 ### Testing
 
 
